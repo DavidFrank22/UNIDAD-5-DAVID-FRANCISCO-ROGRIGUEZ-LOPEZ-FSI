@@ -1,0 +1,37 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.col-md-6 {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.text-primary {
+    color: #337ab7;
+}
+
+hr {
+    border-top: 1px dotted #ccc;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

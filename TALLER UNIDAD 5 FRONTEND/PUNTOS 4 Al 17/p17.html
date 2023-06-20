@@ -1,0 +1,738 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <!--tag form-->
+        <form action="../../form-result.php" method="post" target="_blank">
+            <p>Nombre de usuario: <input type="text" name="usuario"></p>
+            <p>Contraseña: <input type="password" name="pass"></p>
+            <p><input type="submit" value="Enviar datos"></p>
+        </form>
+        <form action="../../form-result.php" method="post" target="_blank">
+            <p><label>Nombre completo: <input type="text" name="nombrecompleto"></label></p>
+            <p>Género:
+            <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+            <label><input type="radio" name="genero" value="femenino"> Femenino</label>
+        </p>
+            <p><label>Dirección: <input type="text" name="direccion"></label></p>
+            <p>Intereses:
+            <label><input type="checkbox" name="libros"> Libros</label>
+            <label><input type="checkbox" name="peliculas"> Películas</label>
+            <label><input type="checkbox" name="videojuegos"> Videojuegos</label>
+        </p>
+            <p><input type="submit" value="Enviar datos"> <input type="reset" value="Restaurar
+            formulario"></p>
+        </form>
+        <form action="../../form-result.php" method="get" target="_blank">
+            <fieldset>
+                <legend>Información básica</legend>
+                <p><label>Nombre completo: <input type="text" name="nombrecompleto"></label></p>
+                <p><label>Fecha de nacimiento: <input type="date" name="fechadenacimiento"></label></p>
+                <p>Gender:<label><input type="radio" name="genero" value="masculino"> Masculino</label>
+                <label><input type="radio" name="genero" value="femenino"> Femenino</label></p>
+                <p><label>Dirección: <input type="text" name="direccion"></label></p>
+                <p><label>Número telefónico: <input type="tel" name="telefono"></label></p>
+            </fieldset>
+            <fieldset>
+                <legend>Información extra</legend>
+                <p>Interests:
+                <label><input type="checkbox" name="libros"> Libros</label>
+                <label><input type="checkbox" name="peliculas"> Películas</label>
+                <label><input type="checkbox" name="videojuegos"> Videojuegos</label></p>
+                <p><label>Color favorito: <input type="color" name="colorfavorito"></label></p>
+            </fieldset>
+            <p><input type="submit" value="Enviar datos"><input type="reset" value="Restaurar formulario"></p>
+        </form>
+        <form action="../../form-result.php" method="post" enctype="multipart/form-data"
+        target="_blank">
+            <p><label>Archivo: <input type="file" name="archivo"></label> <input type="submit"
+            value="Enviar datos"></p>
+        </form>
+
+            <!--tag label-->
+
+        <form action="../../form-result.php" method="post" target="_blank">
+            <p><label>Nombre de usuario: <input type="text" name="usuario"></label></p>
+            <p><label>Contraseña: <input type="password" name="pass"></label></p>
+            <p><input type="submit" value="Enviar datos"></p>
+        </form>
+        <form action="../../form-result.php" method="post" target="_blank">
+            <p><label for="pensamiento_id">¿Qué estás pensando?:</label></p>
+            <p><input type="text" name="pensamiento" id="pensamiento_id"></p>
+            <p><input type="submit" value="Enviar datos"></p>
+        </form>
+
+        <!--tag input-->
+
+        <form action="../../form-result.php" method="post" target="_blank">
+            <p>Nombre: <input type="text" name="nombre" value="John"></p>
+            <p>Apellido: <input type="text" name="apellido"></p>
+            <p>Deporte favorito: <input type="text" name="deporte" placeholder="Fútbol? Tenis?
+            Hockey?"></p>
+            <p>
+                <input type="submit" value="Enviar datos">
+                <input type="reset" value="Restaurar formulario">
+            </p>
+        </form>
+
+        <!--tag button-->
+
+        <form action="../../form-result.php">
+            <p>Usuario: <input type="text" name="usuario">
+            <button type="button">Estoy en huelga...</button>
+            </p>
+        </form>
+
+        <!--tag select-->
+        <form action="../../form-result.php" target="_blank">
+            <p>Deporte favorito:
+                <select name="deporte">
+                    <option>Fútbol</option>
+                    <option>Críquet</option>
+                    <option>Básquetbol</option>
+                    <option>Hockey</option>
+                    <option>Tenis</option>
+                </select>
+                <input type="submit" value="Enviar">
+            </p>
+        </form>
+        <form action="../../form-result.php" target="_blank">
+            <p>Marca favorita:
+                <select name="marcaauto">
+                    <option>Chevrolet</option>
+                    <option>Ford</option>
+                    <option selected>Peugeot</option>
+                    <option>Fiat</option>
+                </select>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Restaurar">
+            </p>
+        </form>
+        <form action="../../form-result.php" target="_blank">
+            <p>Send message:</p>
+                <select name="enviar mensaje" size="3">
+                    <option>Ahora</option>
+                    <option>Dentro de una hora</option>
+                    <option>Dentro de seis horas</option>
+                    <option>Mañana</option>
+                </select>
+            </p>
+            <p><input type="submit" value="Enviar"></p>
+        </form>
+        <form action="../../form-result.php" target="_blank">
+            <p>Selecciona un curso:
+                <select name="curso" required>
+                    <option value="">Elige una opción</option>
+                    <option>Cerámica</option>
+                    <option>Jardinería</option>
+                    <option>Arte</option>
+                    <option>Fotografía</option>
+                    <option>Emprendedurismo</option>
+                </select>
+                <input type="submit" value="Enviar">
+            </p>
+        </form>
+
+        <!--tag datalist-->
+
+        <p>Formato de imagen: <input type="text" name="formatoimagen" list="listaformatosimagen"></p>
+        <datalist id="listaformatosimagen">
+            <option>PNG</option>
+            <option>JPEG</option>
+            <option>GIF</option>
+            <option>TGA</option>
+        </datalist>
+        <p>Peso del compuesto: <input type="number" name="pesocompuesto" min="2" step="0.01" list="listapesos"></p>
+        <datalist id="listapesos">
+            <option>Muy pesado</option>
+            <option>0.57</option>
+            <option>0.0215</option>
+            <option>4.62</option>
+        </datalist>
+        <p><label>Ingresa un nombre para tu mascota: <input type="text" name="nombremascota" list="listamascotas"></label></p>
+        <datalist id="listamascotas">
+            <label>O elige uno de la siguiente lista</label>
+                <select name="nombremascota">
+                    <option>Bela</option>
+                    <option>Luna</option>
+                    <option>Daisy</option>
+                    <option>Brisa</option>
+                </select>
+            </label>
+        </datalist>
+
+        <!--tag option-->
+
+        <form action="../../form-result.php" target="_blank">
+            <p>Pick a car:
+                <select name="car">
+                    <option>458 Spider</option>
+                    <option selected>F12 Berlinetta</option>
+                    <option>California T</option>
+                </select>
+                <input type="submit" value="Submit form">
+                <input type="reset" value="Reset form">
+            </p>
+        </form>
+        <p>Elije una estatuilla:
+            <select>
+                <optgroup label="Aves">
+                    <option>Búho</option>
+                    <option>Petirrojo</option>
+                    <option>Paloma</option>
+                    <option>Gorrión</option>
+                </optgroup>
+                    <optgroup label="Felinos">
+                    <option>León</option>
+                    <option>Tigre</option>
+                    <option>Gato</option>
+                </optgroup>
+            </select>
+        </p>
+        <form action="../../form-result.php" target="_blank">
+            <p>Tu bebida:
+            <select name="bebida" required>
+                <option value="">Elije tu bebida</option>
+                <optgroup label="Con Vodka">
+                    <option>Martini</option>
+                    <option>Cosmopolita</option>
+                    <option>Destornillador</option>
+                </optgroup>
+                <optgroup label="Con Tequila">
+                    <option>Margarita</option>
+                    <option>Tequila Sunrise</option>
+                    <option>Cantarito</option>
+                </optgroup>
+            </select>
+            <input type="submit" value="Enviar">
+        </p>
+        </form>
+        <p>
+            Elije un motor de búsqueda:
+            <input type="text" list="listamotoresbusqueda">
+        </p>
+        <datalist id="listamotoresbusqueda">
+            <option>Google</option>
+            <option>Yahoo!</option>
+            <option>Bing</option>
+            <option>DuckDuckGo</option>
+        </datalist>
+
+        <!--tag textarea-->
+
+        <form action="../../form-result.php" target="_blank">
+            <p>Mensaje para el autor:</p>
+            <p><textarea name="mensaje" placeholder="Comparte tu opinión con el
+            autor!"></textarea></p>
+            <p><input type="submit" value="Enviar mensaje"></p>
+        </form>
+        <form action="../../form-result.php" target="_blank">
+            <p>Edita tu comentario:</p>
+            <p><textarea name="comment">Hola! Creo que estás completamente equivocado!</textarea></p>
+            <p>
+                <input type="submit" value="Editar">
+                <input type="reset" value="Restaurar">
+            </p>
+        </form>
+        <form action="../../form-result.php" target="_blank">
+            <p>Agregar una nueva descripción:</p>
+            <p><textarea name="descripcion" cols="40" rows="5"></textarea></p>
+            <p><input type="submit" value="Enviar"></p>
+        </form>
+        <form action="../../form-result.php" target="_blank">
+            <p>Edita tu biografía:</p>
+            <p><textarea name="biografia" minlength="20" maxlength="50"></textarea></p>
+            <p><input type="submit" value="Enviar"></p>
+        </form>
+        <form action="../../form-result.php" target="_blank">
+            <p>Comentarios:</p>
+            <p><textarea name="comentarios" required></textarea></p>
+            <p><input type="submit" value="Enviar"></p>
+        </form>
+
+        <!--tag progress-->
+
+        <p>Progreso: <progress max="100" value="20"></progress></p>
+        <p>Progreso de la subida: <progress max="68" value="47">47/68</progress></p>
+        <p>Progreso de la recuperación del archivo: <progress></progress></p>
+        <p> Progreso: 
+            <input type="button" value="Transferir archivo" onclick="progresoTransferenciaArchivo()">
+            <progress id="transferenciaarchivo" value="0"></progress>
+        </p>
+
+        <!--tag legend-->
+
+        <form action="../../form-result.php" target="_blank">
+            <fieldset>
+                <legend>Información de contacto</legend>
+                <p>Nombre completo: <input type="text" name="nombrecompleto"></p>
+                <p>Dirección: <input type="text" name="direccion"></p>
+                <p>Teléfono: <input type="tel" name="telefono"></p>
+            </fieldset>
+            <fieldset>
+                <legend>Preferencias</legend>
+                <p><input type="checkbox" name="pref-autos"> Autos</p>
+                <p><input type="checkbox" name="pref-vacaciones"> Vacaciones</p>
+                <p><input type="checkbox" name="pref-estilodevida"> Estilo de vida</p>
+                <p><input type="checkbox" name="pref-astronomia"> Astronomía</p>
+            </fieldset>
+            <p><input type="submit" value="Enviar información"></p>
+        </form>
+
+        <!--tag details-->
+
+        <form action="../../form-result.php" target="_blank">
+            <p>Direción de e-mail: <input type="email" name="direccionemail"></p>
+            <details>
+                <summary>Opciones extra</summary>
+                <p><input type="checkbox" name="enviarofertas" checked> Enviar ofertas y promociones a mi dirección de e-mail.</p>
+            </details>
+            <p><input type="submit" value="Enviar datos"></p>
+        </form>
+        <p>La mayoría de procesos astrofísicos no pueden ser recreados en los laboratorios de la Tierra.
+            En cualquier caso, existe una gran variedad de objetos astronómicos visibles a lo largo de todo
+            el espectro electromagnético. El estudio de dichos objetos mediante la adquisición pasiva de
+            datos es el objetivo de la astronomía observacional.</p>
+        <details open>
+            <summary>Galileo Galilei</summary>
+            <img src="/assets/images/galileo-galilei.jpg" style="float: right; margin: 0 0 1em 2em" alt="Galileo
+            Galilei, padre de la astronomía observacional moderna">
+            <p>Galileo Galilei fue un astrónomo, filósofo, ingeniero, matemático y físico italiano,
+            relacionado estrechamente con la revolución científica. Eminente hombre del Renacimiento,
+            mostró interés por casi todas las ciencias y artes (música, literatura, pintura).</p>
+            <p>Sus logros incluyen la mejora del telescopio, gran variedad de observaciones astronómicas,
+            la primera ley del movimiento y un apoyo determinante al copernicanismo.</p>
+        </details>
+
+        <!--tag summary-->
+
+        <p><b>Cosmos: un viaje personal</b> es una serie documental de divulgación científica escrita
+            por Carl Sagan, Ann Druyan y Steven Soter (con Sagan como guionista principal y presentador),
+            cuyos objetivos fundamentales fueron: difundir la historia de la astronomía y de la ciencia, así
+            como sobre el origen de la vida; concienciar sobre el lugar que ocupa nuestra especie y nuestro
+            planeta en el universo, y presentar las modernas visiones de la cosmología y las últimas noticias
+            de la exploración espacial, y en particular, las misiones Voyager.</p>
+        <details>
+            <summary>Carl Sagan</summary>
+            <p>Carl Edward Sagan fue un astrónomo, astrofísico, cosmólogo, escritor y divulgador científico
+            estadounidense. Sagan publicó numerosos artículos científicos y comunicaciones1 y fue autor,
+            coautor o editor de más de una veintena de libros. Defensor del pensamiento escéptico científico
+            y del método científico, fue también pionero de la exobiología, promotor de la búsqueda de
+            inteligencia extraterrestre a través del Proyecto SETI e impulsó el envío de mensajes a bordo de
+            sondas espaciales, destinados a informar a posibles civilizaciones extraterrestres acerca de la
+            cultura humana.</p>
+        </details>
+
+        <!--tag dialog-->
+
+        <button type="button" onclick="abrirDialogo('dialogo1')">Abrir diálogo</button>
+        <dialog id="dialogo1">
+            <p>Hola! Este es nuestro primer diálogo. Si te gusta, no lo cierres...</p>
+            <button type="button" onclick="cerrarDialogo('dialogo1')">Cerrar</button>
+        </dialog>
+        <button type="button" onclick="abrirDialogo('dialogo2', true)">Abrir diálogo</button>
+        <dialog id="dialogo2" class="dialogo-ejemplo">
+            <p>Wow! esto está mejor, ¿no es así?</p>
+            <button type="button" onclick="cerrarDialogo('dialogo2')">Cerrar</button>
+        </dialog>
+
+        <!--tag script-->
+
+        <p onmouseover="cambiarAItalica(this)" onmouseout="changeANormal(this)">Kennedy se
+            tranquilizó y volvió a abismarse en su contemplación indecisa, cuando hendió los aires un agudo
+            silbido.</p>
+        <script>
+            function cambiarAItalica(element) {
+                element.style.fontStyle='italic';
+            }
+            function changeANormal(element) {
+                element.style.fontStyle='normal';
+            }
+
+        </script>
+        <p onmouseover="espesorANegrita(this)" onmouseout="espesorANormal(this)">Joe se
+            deslizó por el cable y reapareció a los pocos instantes. El Victoria, en libertad, flotaba en el aire,
+            casi inmóvil.</p>
+        <script src="script.js"></script>
+
+        <!--tag canvas-->
+
+        <canvas id="canvas-1" height="100"></canvas>
+        <canvas id="canvas-2" height="200"></canvas>
+    </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <!--tag form-->
+        <form action="../../form-result.php" method="post" target="_blank">
+            <p>Nombre de usuario: <input type="text" name="usuario"></p>
+            <p>Contraseña: <input type="password" name="pass"></p>
+            <p><input type="submit" value="Enviar datos"></p>
+        </form>
+        <form action="../../form-result.php" method="post" target="_blank">
+            <p><label>Nombre completo: <input type="text" name="nombrecompleto"></label></p>
+            <p>Género:
+            <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+            <label><input type="radio" name="genero" value="femenino"> Femenino</label>
+        </p>
+            <p><label>Dirección: <input type="text" name="direccion"></label></p>
+            <p>Intereses:
+            <label><input type="checkbox" name="libros"> Libros</label>
+            <label><input type="checkbox" name="peliculas"> Películas</label>
+            <label><input type="checkbox" name="videojuegos"> Videojuegos</label>
+        </p>
+            <p><input type="submit" value="Enviar datos"> <input type="reset" value="Restaurar
+            formulario"></p>
+        </form>
+        <form action="../../form-result.php" method="get" target="_blank">
+            <fieldset>
+                <legend>Información básica</legend>
+                <p><label>Nombre completo: <input type="text" name="nombrecompleto"></label></p>
+                <p><label>Fecha de nacimiento: <input type="date" name="fechadenacimiento"></label></p>
+                <p>Gender:<label><input type="radio" name="genero" value="masculino"> Masculino</label>
+                <label><input type="radio" name="genero" value="femenino"> Femenino</label></p>
+                <p><label>Dirección: <input type="text" name="direccion"></label></p>
+                <p><label>Número telefónico: <input type="tel" name="telefono"></label></p>
+            </fieldset>
+            <fieldset>
+                <legend>Información extra</legend>
+                <p>Interests:
+                <label><input type="checkbox" name="libros"> Libros</label>
+                <label><input type="checkbox" name="peliculas"> Películas</label>
+                <label><input type="checkbox" name="videojuegos"> Videojuegos</label></p>
+                <p><label>Color favorito: <input type="color" name="colorfavorito"></label></p>
+            </fieldset>
+            <p><input type="submit" value="Enviar datos"><input type="reset" value="Restaurar formulario"></p>
+        </form>
+        <form action="../../form-result.php" method="post" enctype="multipart/form-data"
+        target="_blank">
+            <p><label>Archivo: <input type="file" name="archivo"></label> <input type="submit"
+            value="Enviar datos"></p>
+        </form>
+
+            <!--tag label-->
+
+        <form action="../../form-result.php" method="post" target="_blank">
+            <p><label>Nombre de usuario: <input type="text" name="usuario"></label></p>
+            <p><label>Contraseña: <input type="password" name="pass"></label></p>
+            <p><input type="submit" value="Enviar datos"></p>
+        </form>
+        <form action="../../form-result.php" method="post" target="_blank">
+            <p><label for="pensamiento_id">¿Qué estás pensando?:</label></p>
+            <p><input type="text" name="pensamiento" id="pensamiento_id"></p>
+            <p><input type="submit" value="Enviar datos"></p>
+        </form>
+
+        <!--tag input-->
+
+        <form action="../../form-result.php" method="post" target="_blank">
+            <p>Nombre: <input type="text" name="nombre" value="John"></p>
+            <p>Apellido: <input type="text" name="apellido"></p>
+            <p>Deporte favorito: <input type="text" name="deporte" placeholder="Fútbol? Tenis?
+            Hockey?"></p>
+            <p>
+                <input type="submit" value="Enviar datos">
+                <input type="reset" value="Restaurar formulario">
+            </p>
+        </form>
+
+        <!--tag button-->
+
+        <form action="../../form-result.php">
+            <p>Usuario: <input type="text" name="usuario">
+            <button type="button">Estoy en huelga...</button>
+            </p>
+        </form>
+
+        <!--tag select-->
+        <form action="../../form-result.php" target="_blank">
+            <p>Deporte favorito:
+                <select name="deporte">
+                    <option>Fútbol</option>
+                    <option>Críquet</option>
+                    <option>Básquetbol</option>
+                    <option>Hockey</option>
+                    <option>Tenis</option>
+                </select>
+                <input type="submit" value="Enviar">
+            </p>
+        </form>
+        <form action="../../form-result.php" target="_blank">
+            <p>Marca favorita:
+                <select name="marcaauto">
+                    <option>Chevrolet</option>
+                    <option>Ford</option>
+                    <option selected>Peugeot</option>
+                    <option>Fiat</option>
+                </select>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Restaurar">
+            </p>
+        </form>
+        <form action="../../form-result.php" target="_blank">
+            <p>Send message:</p>
+                <select name="enviar mensaje" size="3">
+                    <option>Ahora</option>
+                    <option>Dentro de una hora</option>
+                    <option>Dentro de seis horas</option>
+                    <option>Mañana</option>
+                </select>
+            </p>
+            <p><input type="submit" value="Enviar"></p>
+        </form>
+        <form action="../../form-result.php" target="_blank">
+            <p>Selecciona un curso:
+                <select name="curso" required>
+                    <option value="">Elige una opción</option>
+                    <option>Cerámica</option>
+                    <option>Jardinería</option>
+                    <option>Arte</option>
+                    <option>Fotografía</option>
+                    <option>Emprendedurismo</option>
+                </select>
+                <input type="submit" value="Enviar">
+            </p>
+        </form>
+
+        <!--tag datalist-->
+
+        <p>Formato de imagen: <input type="text" name="formatoimagen" list="listaformatosimagen"></p>
+        <datalist id="listaformatosimagen">
+            <option>PNG</option>
+            <option>JPEG</option>
+            <option>GIF</option>
+            <option>TGA</option>
+        </datalist>
+        <p>Peso del compuesto: <input type="number" name="pesocompuesto" min="2" step="0.01" list="listapesos"></p>
+        <datalist id="listapesos">
+            <option>Muy pesado</option>
+            <option>0.57</option>
+            <option>0.0215</option>
+            <option>4.62</option>
+        </datalist>
+        <p><label>Ingresa un nombre para tu mascota: <input type="text" name="nombremascota" list="listamascotas"></label></p>
+        <datalist id="listamascotas">
+            <label>O elige uno de la siguiente lista</label>
+                <select name="nombremascota">
+                    <option>Bela</option>
+                    <option>Luna</option>
+                    <option>Daisy</option>
+                    <option>Brisa</option>
+                </select>
+            </label>
+        </datalist>
+
+        <!--tag option-->
+
+        <form action="../../form-result.php" target="_blank">
+            <p>Pick a car:
+                <select name="car">
+                    <option>458 Spider</option>
+                    <option selected>F12 Berlinetta</option>
+                    <option>California T</option>
+                </select>
+                <input type="submit" value="Submit form">
+                <input type="reset" value="Reset form">
+            </p>
+        </form>
+        <p>Elije una estatuilla:
+            <select>
+                <optgroup label="Aves">
+                    <option>Búho</option>
+                    <option>Petirrojo</option>
+                    <option>Paloma</option>
+                    <option>Gorrión</option>
+                </optgroup>
+                    <optgroup label="Felinos">
+                    <option>León</option>
+                    <option>Tigre</option>
+                    <option>Gato</option>
+                </optgroup>
+            </select>
+        </p>
+        <form action="../../form-result.php" target="_blank">
+            <p>Tu bebida:
+            <select name="bebida" required>
+                <option value="">Elije tu bebida</option>
+                <optgroup label="Con Vodka">
+                    <option>Martini</option>
+                    <option>Cosmopolita</option>
+                    <option>Destornillador</option>
+                </optgroup>
+                <optgroup label="Con Tequila">
+                    <option>Margarita</option>
+                    <option>Tequila Sunrise</option>
+                    <option>Cantarito</option>
+                </optgroup>
+            </select>
+            <input type="submit" value="Enviar">
+        </p>
+        </form>
+        <p>
+            Elije un motor de búsqueda:
+            <input type="text" list="listamotoresbusqueda">
+        </p>
+        <datalist id="listamotoresbusqueda">
+            <option>Google</option>
+            <option>Yahoo!</option>
+            <option>Bing</option>
+            <option>DuckDuckGo</option>
+        </datalist>
+
+        <!--tag textarea-->
+
+        <form action="../../form-result.php" target="_blank">
+            <p>Mensaje para el autor:</p>
+            <p><textarea name="mensaje" placeholder="Comparte tu opinión con el
+            autor!"></textarea></p>
+            <p><input type="submit" value="Enviar mensaje"></p>
+        </form>
+        <form action="../../form-result.php" target="_blank">
+            <p>Edita tu comentario:</p>
+            <p><textarea name="comment">Hola! Creo que estás completamente equivocado!</textarea></p>
+            <p>
+                <input type="submit" value="Editar">
+                <input type="reset" value="Restaurar">
+            </p>
+        </form>
+        <form action="../../form-result.php" target="_blank">
+            <p>Agregar una nueva descripción:</p>
+            <p><textarea name="descripcion" cols="40" rows="5"></textarea></p>
+            <p><input type="submit" value="Enviar"></p>
+        </form>
+        <form action="../../form-result.php" target="_blank">
+            <p>Edita tu biografía:</p>
+            <p><textarea name="biografia" minlength="20" maxlength="50"></textarea></p>
+            <p><input type="submit" value="Enviar"></p>
+        </form>
+        <form action="../../form-result.php" target="_blank">
+            <p>Comentarios:</p>
+            <p><textarea name="comentarios" required></textarea></p>
+            <p><input type="submit" value="Enviar"></p>
+        </form>
+
+        <!--tag progress-->
+
+        <p>Progreso: <progress max="100" value="20"></progress></p>
+        <p>Progreso de la subida: <progress max="68" value="47">47/68</progress></p>
+        <p>Progreso de la recuperación del archivo: <progress></progress></p>
+        <p> Progreso: 
+            <input type="button" value="Transferir archivo" onclick="progresoTransferenciaArchivo()">
+            <progress id="transferenciaarchivo" value="0"></progress>
+        </p>
+
+        <!--tag legend-->
+
+        <form action="../../form-result.php" target="_blank">
+            <fieldset>
+                <legend>Información de contacto</legend>
+                <p>Nombre completo: <input type="text" name="nombrecompleto"></p>
+                <p>Dirección: <input type="text" name="direccion"></p>
+                <p>Teléfono: <input type="tel" name="telefono"></p>
+            </fieldset>
+            <fieldset>
+                <legend>Preferencias</legend>
+                <p><input type="checkbox" name="pref-autos"> Autos</p>
+                <p><input type="checkbox" name="pref-vacaciones"> Vacaciones</p>
+                <p><input type="checkbox" name="pref-estilodevida"> Estilo de vida</p>
+                <p><input type="checkbox" name="pref-astronomia"> Astronomía</p>
+            </fieldset>
+            <p><input type="submit" value="Enviar información"></p>
+        </form>
+
+        <!--tag details-->
+
+        <form action="../../form-result.php" target="_blank">
+            <p>Direción de e-mail: <input type="email" name="direccionemail"></p>
+            <details>
+                <summary>Opciones extra</summary>
+                <p><input type="checkbox" name="enviarofertas" checked> Enviar ofertas y promociones a mi dirección de e-mail.</p>
+            </details>
+            <p><input type="submit" value="Enviar datos"></p>
+        </form>
+        <p>La mayoría de procesos astrofísicos no pueden ser recreados en los laboratorios de la Tierra.
+            En cualquier caso, existe una gran variedad de objetos astronómicos visibles a lo largo de todo
+            el espectro electromagnético. El estudio de dichos objetos mediante la adquisición pasiva de
+            datos es el objetivo de la astronomía observacional.</p>
+        <details open>
+            <summary>Galileo Galilei</summary>
+            <img src="/assets/images/galileo-galilei.jpg" style="float: right; margin: 0 0 1em 2em" alt="Galileo
+            Galilei, padre de la astronomía observacional moderna">
+            <p>Galileo Galilei fue un astrónomo, filósofo, ingeniero, matemático y físico italiano,
+            relacionado estrechamente con la revolución científica. Eminente hombre del Renacimiento,
+            mostró interés por casi todas las ciencias y artes (música, literatura, pintura).</p>
+            <p>Sus logros incluyen la mejora del telescopio, gran variedad de observaciones astronómicas,
+            la primera ley del movimiento y un apoyo determinante al copernicanismo.</p>
+        </details>
+
+        <!--tag summary-->
+
+        <p><b>Cosmos: un viaje personal</b> es una serie documental de divulgación científica escrita
+            por Carl Sagan, Ann Druyan y Steven Soter (con Sagan como guionista principal y presentador),
+            cuyos objetivos fundamentales fueron: difundir la historia de la astronomía y de la ciencia, así
+            como sobre el origen de la vida; concienciar sobre el lugar que ocupa nuestra especie y nuestro
+            planeta en el universo, y presentar las modernas visiones de la cosmología y las últimas noticias
+            de la exploración espacial, y en particular, las misiones Voyager.</p>
+        <details>
+            <summary>Carl Sagan</summary>
+            <p>Carl Edward Sagan fue un astrónomo, astrofísico, cosmólogo, escritor y divulgador científico
+            estadounidense. Sagan publicó numerosos artículos científicos y comunicaciones1 y fue autor,
+            coautor o editor de más de una veintena de libros. Defensor del pensamiento escéptico científico
+            y del método científico, fue también pionero de la exobiología, promotor de la búsqueda de
+            inteligencia extraterrestre a través del Proyecto SETI e impulsó el envío de mensajes a bordo de
+            sondas espaciales, destinados a informar a posibles civilizaciones extraterrestres acerca de la
+            cultura humana.</p>
+        </details>
+
+        <!--tag dialog-->
+
+        <button type="button" onclick="abrirDialogo('dialogo1')">Abrir diálogo</button>
+        <dialog id="dialogo1">
+            <p>Hola! Este es nuestro primer diálogo. Si te gusta, no lo cierres...</p>
+            <button type="button" onclick="cerrarDialogo('dialogo1')">Cerrar</button>
+        </dialog>
+        <button type="button" onclick="abrirDialogo('dialogo2', true)">Abrir diálogo</button>
+        <dialog id="dialogo2" class="dialogo-ejemplo">
+            <p>Wow! esto está mejor, ¿no es así?</p>
+            <button type="button" onclick="cerrarDialogo('dialogo2')">Cerrar</button>
+        </dialog>
+
+        <!--tag script-->
+
+        <p onmouseover="cambiarAItalica(this)" onmouseout="changeANormal(this)">Kennedy se
+            tranquilizó y volvió a abismarse en su contemplación indecisa, cuando hendió los aires un agudo
+            silbido.</p>
+        <script>
+            function cambiarAItalica(element) {
+                element.style.fontStyle='italic';
+            }
+            function changeANormal(element) {
+                element.style.fontStyle='normal';
+            }
+
+        </script>
+        <p onmouseover="espesorANegrita(this)" onmouseout="espesorANormal(this)">Joe se
+            deslizó por el cable y reapareció a los pocos instantes. El Victoria, en libertad, flotaba en el aire,
+            casi inmóvil.</p>
+        <script src="script.js"></script>
+
+        <!--tag canvas-->
+
+        <canvas id="canvas-1" height="100"></canvas>
+        <canvas id="canvas-2" height="200"></canvas>
+    </body>
+>>>>>>> d1915dd31a04764943f48daae44a07ac66a24fa2
+</html>
